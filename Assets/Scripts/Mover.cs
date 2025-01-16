@@ -13,7 +13,7 @@ public class Mover : MonoBehaviour
         Move();
     }
 
-    public void Move()
+    private void Move()
     {
         transform.
             DOMove(_targetPosition, _duration).

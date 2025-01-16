@@ -13,7 +13,7 @@ public class Rotator : MonoBehaviour
         Rotate();
     }
 
-    public void Rotate()
+    private void Rotate()
     {
         transform.
             DORotate(_targetRotation, _duration, RotateMode.LocalAxisAdd).
